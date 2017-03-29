@@ -18,3 +18,8 @@ def about():
 @app.route('/test')
 def test():
 	return render_template("test.html")
+
+# route to lorem
+@app.route('/lorem')
+def lorem():
+	return render_template("lorem.html")
